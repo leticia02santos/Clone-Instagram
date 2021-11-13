@@ -1,0 +1,372 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+body{
+    background-color: white;
+    height: auto;
+}
+
+/*PADRÕES*/
+
+.container{
+    width: 70%;
+    height: 100%;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+/*PADRÕES*/
+
+header{
+    background-color: white;
+    height: 55px;
+    width: 100%;
+    position: fixed;
+    border-bottom: solid 1px #c4c4c4c4;
+}
+
+#container-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    height: 100%;
+    background-image: url(https://github.com/INDESBR/bootcamp_projeto08/blob/main/logo/735145cfe0a4.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.search{
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input{
+    padding: 5px;
+    border: solid 1px #c4c4c4c4;
+    outline: none;
+}
+
+.search input::placeholder{
+    text-align: center;
+}
+
+nav{
+    width: 300px;
+    height: 100%;
+}
+
+nav ul{
+   height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.nav-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+#home{
+    background-image: url(https://github.com/INDESBR/bootcamp_projeto08/blob/main/icons/home.png?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#send{
+    background-image: url(https://github.com/INDESBR/bootcamp_projeto08/blob/main/icons/send.png?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#find{
+    background-image: url(https://github.com/INDESBR/bootcamp_projeto08/blob/main/icons/find.png?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#heart{
+    background-image: url(https://github.com/INDESBR/bootcamp_projeto08/blob/main/icons/heart.png?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#nav-photo{
+    background-image: url(https://github.com/INDESBR/bootcamp_projeto08/blob/main/profile/profile_photo.png?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+main{
+  
+}
+
+.grid{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+article{
+   
+}
+
+.post{
+    height: auto;
+    width: auto;
+    margin-bottom: 20px;
+    border: solid 1px #c4c4c4c4
+}
+
+.post-header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.post-desc{
+    padding: 10px 10px;
+}
+
+.post-header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-header-foto{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#user1-foto{
+    background-image: url(https://github.com/INDESBR/bootcamp_projeto08/blob/main/imgs/user1/1.png?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#user2-foto{
+    background-image: url(https://github.com/INDESBR/bootcamp_projeto08/blob/main/imgs/user2/2.png?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#user3-foto{
+    background-image: url(https://github.com/INDESBR/bootcamp_projeto08/blob/main/imgs/user3/3.png?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#user4-foto{
+    background-image: url(https://github.com/INDESBR/bootcamp_projeto08/blob/main/imgs/user4/4.png?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.post-header-name{
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.post-header-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bullet{
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    margin: 3px;
+    border-radius: 50%;
+}
+
+.post-foto{
+    height: auto;
+    width: auto;
+}
+
+.post-foto img{
+    width: 100%;
+}
+
+.post-desc-icon-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60px;
+    padding: 5px 0;
+}
+
+.desc-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#desc-title{
+    font-weight: bold;
+}
+
+aside{
+    
+}
+
+.sugestoes{
+    width: 28%;
+    height: 400px;
+    position: fixed;
+    padding: 0 25px;
+    font-weight: bold;
+}
+
+.sugestoes-user-container{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.sugestoes-user-container p{
+   margin-left: 15px;
+}
+
+.sugestoes-user-photo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#sugestoes-p{
+    font-weight: bold;
+}
+
+.sugestoes-follow-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.follow-container{
+    width: auto;
+    display: flex;
+    margin-left: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.follow-photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+}
+
+#follow-1{
+    background-image: url(https://github.com/INDESBR/bootcamp_projeto08/blob/main/aside/user_1.png?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#follow-2{
+    background-image: url(https://github.com/INDESBR/bootcamp_projeto08/blob/main/aside/user_2.png?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#follow-3{
+    background-image: url(https://github.com/INDESBR/bootcamp_projeto08/blob/main/aside/user_3.png?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#follow-4{
+    background-image: url(https://github.com/INDESBR/bootcamp_projeto08/blob/main/aside/user_4.png?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#follow-5{
+    background-image: url(https://github.com/INDESBR/bootcamp_projeto08/blob/main/aside/user_5.png?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#follow-6{
+    background-image: url(https://github.com/INDESBR/bootcamp_projeto08/blob/main/aside/user_6.png?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#left{
+    color: rgb(52, 153, 179);
+    font-weight: bold;
+}
+
+#dis{
+    margin-left: 10px;
+}
+
+@media screen and (max-width:720px){
+    .search{
+        display: none;
+    }
+
+    .container{
+        width: 90%;
+    }
+
+    aside{
+        display: none;
+    }
+
+    .grid{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .post-foto{
+        width: 100%;
+        height: auto;
+        background-size: contain;
+    }
+
+    .post-foto img{
+        width: 60%;
+        height: 60%;
+    }
+
+}
